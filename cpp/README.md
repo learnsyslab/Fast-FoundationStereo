@@ -168,7 +168,7 @@ Both `build_plugin_trt.py` and `run_demo_plugin_trt.py` auto-discover `libffs_gw
 
 ### B.1 Build the two engines
 
-See the [Two-stage ONNX section in the top-level README](../readme.md#two-stage-onnx) for how to export `feature_runner.onnx` / `post_runner.onnx` with `scripts/make_onnx.py` and then build `feature_runner.engine` / `post_runner.engine` with `trtexec`. After running those steps your engine directory should contain:
+See the [Two-stage ONNX section in the top-level README](../README_ORIG.md#two-stage-onnx) for how to export `feature_runner.onnx` / `post_runner.onnx` with `scripts/make_onnx.py` and then build `feature_runner.engine` / `post_runner.engine` with `trtexec`. After running those steps your engine directory should contain:
 
 ```text
 output_two_onnx/

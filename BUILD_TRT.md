@@ -2,7 +2,7 @@
 
 How the engine in `output_single_trt/` was produced, and how to rebuild it on
 another machine. The generic commands are in the upstream readme
-(section "ONNX/TRT"); this file records the settings actually used here and the
+([README_ORIG.md](README_ORIG.md), section "ONNX/TRT"); this file records the settings actually used here and the
 things that are easy to get wrong.
 
 ## What was built
